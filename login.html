@@ -9,27 +9,32 @@
     <title>Mans Hair</title>
     <!-- css링크 -->
     <link rel="stylesheet" href="style.css" />
+    <style>
+      .tx1 {
+        font-family: "Playfair Display", serif;
+      }
+    </style>
   </head>
   <body>
     <!-- 가운데 로그인 폼 창 -->
     <div class="form-wrapper">
-      <h2>로그인</h2>
+      <h2 class="tx1">로그인</h2>
       <form action="#">
         <div class="form-control">
           <input type="text" required />
-          <label>ID</label>
+          <label class="tx1">ID</label>
         </div>
         <div class="form-control">
           <input type="password" required />
-          <label>Password</label>
+          <label class="tx1">Password</label>
         </div>
         <button type="submit">Login</button>
         <div class="form-help">
           <div class="remember-me">
             <input type="checkbox" id="remember-me" />
-            <label for="remember-me">로그인 정보 저장</label>
+            <label for="remember-me" class="tx1">로그인 정보 저장</label>
           </div>
-          <a href="#">도움이 필요하신가요?</a>
+          <a href="#" class="tx1">도움이 필요하신가요?</a>
         </div>
       </form>
     </div>
